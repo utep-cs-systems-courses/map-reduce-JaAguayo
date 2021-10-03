@@ -12,6 +12,8 @@ For 2 threads: 92.10sec
 For 4 threads: 73.74sec
 For 8 threads: 62.05sec
 
-The program behaves this way since I am iterating a list of the files, when I give more threads it is able to work on more documents at a time to find words within, so when I give 8 threads it can search all the 8 files right away making the time the lowest. 
+The program behaves this way since I am iterating a list of the files, when I give more threads it is able to work on more documents at a time to find words within, so when I give 8 threads it can search all the 8 files right away making the time the lowest.
 
 cpuInfo.sh Program model name : AMD Ryzen 5 5600X 6-Core Processor 4 36 192
+
+You run the program by having the files in the same directory that follow the "filename1.txt" format, the just run the program using "python3 parallelMapReduce.py"
